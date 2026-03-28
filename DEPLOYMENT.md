@@ -19,7 +19,7 @@ To avoid complex Vercel monorepo routing issues, **we will deploy the Backend an
    - **Root Directory**: Click `Edit` and explicitly select the **`backend`** folder.
 4. **Environment Variables**: Add all the variables from your local `backend/.env` file:
    - `SUPABASE_URL`
-   - `SUPABASE_KEY`
+   - `SUPABASE_SERVICE_ROLE_KEY`
    - `JWT_SECRET`
    - `FRONTEND_URL` (Set this to `*` for now; you can update it later).
 5. Click **Deploy**.
